@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Get_result extends STUDENT{
+ String name,rollno;
+ int regno;
+	@Override
+	void calculateresult() {
+		// TODO Auto-generated method stub
+		Scanner s1 = new Scanner(System.in);
+		System.out.println("Enter Name");
+		String name = s1.next();
+		super.name = name;
+		
+		System.out.println("Enter RollNO");
+		String rollno = s1.next();
+		super.rollno = rollno;
+		
+		System.out.println("Enter Reg no");
+		int regno = s1.nextInt();
+		super.regno = regno;
+		
+		
+	}
+	
+	public static void main(String args[]){
+		System.out.println("Your name:"+name);
+		
+	}
+	
+
+	
+}

@@ -1,0 +1,12 @@
+
+public class Get_result extends STUDENT{
+
+	@Override
+	void calculateresult() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+	
+}

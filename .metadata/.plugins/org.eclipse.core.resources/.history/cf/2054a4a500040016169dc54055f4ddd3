@@ -1,0 +1,9 @@
+
+public class STUDENT {
+
+	String name;
+	String rollno;
+	int regno;
+	
+	void calculateresult();
+}
